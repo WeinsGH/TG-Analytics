@@ -1,0 +1,40 @@
+2024-01-20 23:52:50,031 - INFO - Start parsing, task uid: 4d8bedd4-35f9-4775-a78b-8d6300acf650
+2024-01-20 23:52:50,033 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-01-20 23:52:50,033 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-01-20 23:53:02,549 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2024-01-20 23:53:02,550 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2024-01-20 23:53:02,558 - INFO - Parsing complete. 4d8bedd4-35f9-4775-a78b-8d6300acf650
+Total time:12.526880741119385
+2024-01-20 23:53:02,558 - INFO - Start semantic analysis, task uid: 4d8bedd4-35f9-4775-a78b-8d6300acf650
+2024-01-20 23:53:02,562 - ERROR - ERROR in semantic analysis: 'text'
+2024-01-20 23:53:02,563 - INFO - 4d8bedd4-35f9-4775-a78b-8d6300acf650 was crashed in semantic analysis.
+2024-01-20 23:55:07,755 - INFO - Start parsing, task uid: 859463f8-2d6b-4c90-b016-a03e6986bc34
+2024-01-20 23:55:07,757 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-01-20 23:55:07,758 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-01-20 23:55:14,367 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2024-01-20 23:55:14,368 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2024-01-20 23:55:14,377 - INFO - Parsing complete. 859463f8-2d6b-4c90-b016-a03e6986bc34
+Total time:6.6221089363098145
+2024-01-20 23:55:14,377 - INFO - Start semantic analysis, task uid: 859463f8-2d6b-4c90-b016-a03e6986bc34
+2024-01-20 23:56:17,943 - INFO - Semantic analysis complete. 859463f8-2d6b-4c90-b016-a03e6986bc34
+Total time:63.56638312339783
+2024-01-20 23:56:17,947 - INFO - Start parsing, task uid: 72f63054-6df8-4700-86dc-379899eb0307
+2024-01-20 23:56:17,949 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-01-20 23:56:17,951 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-01-20 23:56:24,631 - ERROR - ERROR in parsing: Cannot find any entity corresponding to "af"
+2024-01-20 23:56:24,632 - INFO - 72f63054-6df8-4700-86dc-379899eb0307 task was crashed in parsing
+2024-01-20 23:56:24,635 - INFO - Start parsing, task uid: 45806258-e485-4e6c-82ca-95dcc15201dd
+2024-01-20 23:56:24,636 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-01-20 23:56:24,637 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-01-20 23:56:30,194 - ERROR - ERROR in parsing: database is locked
+2024-01-20 23:56:30,195 - INFO - 45806258-e485-4e6c-82ca-95dcc15201dd task was crashed in parsing
+2024-01-21 00:15:26,927 - INFO - Start parsing, task uid: 8697c841-9af7-4b69-8a86-f6f512f3ab85
+2024-01-21 00:15:26,933 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-01-21 00:15:26,936 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-01-21 00:15:32,484 - ERROR - ERROR in parsing: database is locked
+2024-01-21 00:15:32,486 - INFO - 8697c841-9af7-4b69-8a86-f6f512f3ab85 task was crashed in parsing
+2024-01-21 00:15:47,513 - INFO - Start parsing, task uid: 3cde1c7f-f5f7-49bf-80db-153851667fe7
+2024-01-21 00:15:47,515 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-01-21 00:15:47,517 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-01-21 00:15:53,043 - ERROR - ERROR in parsing: database is locked
+2024-01-21 00:15:53,063 - INFO - 3cde1c7f-f5f7-49bf-80db-153851667fe7 task was crashed in parsing

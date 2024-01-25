@@ -1,0 +1,10 @@
+2024-01-25 02:03:05,352 - INFO - Start parsing, task uid: 92d244ff-6cba-4222-8a2e-5092bca68cc3
+2024-01-25 02:03:05,358 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-01-25 02:03:05,362 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-01-25 02:03:11,614 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2024-01-25 02:03:11,615 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2024-01-25 02:03:11,621 - INFO - Parsing complete. 92d244ff-6cba-4222-8a2e-5092bca68cc3
+Total time:6.268845081329346
+2024-01-25 02:03:11,622 - INFO - Start semantic analysis, task uid: 92d244ff-6cba-4222-8a2e-5092bca68cc3
+2024-01-25 02:05:07,829 - INFO - Semantic analysis complete. 92d244ff-6cba-4222-8a2e-5092bca68cc3
+Total time:116.20555710792542
