@@ -1,7 +1,7 @@
 # TG-Analitics
 
 ---
-#### [Alice](https://github.com/alizhgir)   [Roman](https://google.com)     [Aleksei](https://github.com/WeinsGH)
+#### [Alice](https://github.com/alizhgir)   [Roman](https://github.com/r-makushkin)     [Aleksei](https://github.com/WeinsGH)
 ![pytorch](https://img.shields.io/badge/pytorch-Used-green)     ![telethon](https://img.shields.io/badge/telethon-Used-blue)  ![huggingface](https://img.shields.io/badge/huggingface-Used-yellow) ![OCR](https://img.shields.io/badge/tesseract-Used-lightgrey) ![st](https://img.shields.io/badge/streamlit-Used-red)
 
 ---
