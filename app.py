@@ -1,4 +1,5 @@
 import streamlit as st
+import datetime
 from st_pages import Page, show_pages
 
 show_pages(
@@ -11,3 +12,9 @@ show_pages(
     ]
 )
 
+fa = st.button('get')
+
+if fa:
+    time = datetime.datetime.now()
+    st.write(time)
+    

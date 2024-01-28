@@ -19,7 +19,7 @@ pip install pytesseract
 # Установка необходимых пакетов
 pip install streamlit telethon asyncio pandas torch transformers nltk wordcloud st_pages bert-score
 
-echo 'Установили все необходимые пакеты.. Вроде как. Качаем модель.'
+echo 'trying to install models..'
 
 # Создание директорий
 mkdir "models"
@@ -30,4 +30,4 @@ mkdir "summary/tokenizer"
 # Запуск скрипта get_models.py
 python3 download_models.py
 
-echo 'Всё установилось, но я не могу поручиться за то, что это успешно. Для старта необходимо запустить app.py dispatcher.py и live-parsing одновременно.'
+echo 'start.sh completed'

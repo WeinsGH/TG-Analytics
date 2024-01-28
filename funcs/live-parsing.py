@@ -6,26 +6,23 @@ import datetime
 
 import pandas as pd
 
-from data_processing import get_data, summarization
+from funcs.data_processing import get_data
 from telethon import TelegramClient, events
 
 
-
-api_id = 26146247
-api_hash = 'd0a288f1b3244ff25756d1f79c83f878'
-
-
 config = {
-    'api_id': 26146247,
-    'api_hash': 'd0a288f1b3244ff25756d1f79c83f878'
+    'api_id': 00000000,
+    'api_hash': 'YOUR API HASH'
 }
 
-file_path = '../ldb/tasks/online/online.txt'
+file_path = 'ldb/tasks/online/online.txt'
+# Лист каналов для отслеживания
 telegram_channels = {
     'from': [
-        {'channel_id': '@yurydud'}
+        {'channel_id': '@SOMETESTCHANNEL'}
     ],
 }
+# Чтение списка запросов на отслеживание и добавление в список
 while True:
     with open(file_path, 'r') as f:
         for line in f:
@@ -43,13 +40,13 @@ while True:
             current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             postlink = 'https://t.me/' + channel[1:] + '/' + str(event.message.chat.id)
 
-            with open('../ldb/posts/online.csv', 'w', newline='', encoding='utf-8') as file:
+            with open('ldb/posts/online.csv', 'w', newline='', encoding='utf-8') as file:
                 writer = csv.writer(file)
-                writer.writerow(['chanel', 'date', 'link', 'text'])
-                writer.writerow([channel, current_time, postlink, text])
+                writer.writerow(['chanel', 'link', 'date', 'text'])
+                writer.writerow([channel, postlink, current_time, text])
 
             try:
-                get_data('../ldb/posts/online.csv', modelpath='../models', save_file='../ldb/data/data.csv', ttype='online')
+                get_data('ldb/posts/online.csv', modelpath='models', save_file='ldb/data/data.csv', ttype='online')
 
             except Exception as e:
                 print(e)

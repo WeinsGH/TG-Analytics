@@ -1,8 +1,12 @@
+import datetime
+
 import pandas as pd
 import streamlit as st
 import pytesseract
 from PIL import Image
 import io
+import time
+
 import time
 import torch
 import re
@@ -106,8 +110,8 @@ if uploaded_file is not None:
             text = pytesseract.image_to_string(Image.open(io.BytesIO(png_data)), lang='rus')
             st.write(text)
 
-            post_date = time.localtime()
-            df = pd.DataFrame({'chanel':'image', 'link':source,'date':post_date, 'text':text, 'predicted_class':get_data(text), 'summary': summarization(text)})
+            post_date = datetime.datetime.now()
+            df = pd.DataFrame({'chanel':'image', 'link':source,'date':post_date, 'text':text, 'predicted_class':get_data(text), 'summary': 'text'})
             df.to_csv('../ldb/data/data.csv', mode='a', header=False, index=False)
         except Exception as e:
             st.error(f'Ошибка при распознавании текста: {e}')
