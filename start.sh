@@ -26,6 +26,10 @@ mkdir "models"
 mkdir "models/local_tokenizer"
 mkdir "summary"
 mkdir "summary/tokenizer"
+mkdir "ldb/SAcompleted"
+mkdir "ldb/posts"
+mkdir "ldb/tasks/errors"
+mkdir "ldb/tasks/completed"
 
 # Запуск скрипта get_models.py
 python3 funcs/download_models.py
