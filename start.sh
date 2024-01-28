@@ -28,6 +28,6 @@ mkdir "summary"
 mkdir "summary/tokenizer"
 
 # Запуск скрипта get_models.py
-python3 download_models.py
+python3 funcs/download_models.py
 
 echo 'start.sh completed'
